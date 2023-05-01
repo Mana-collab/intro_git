@@ -120,10 +120,10 @@ function entitiesAreColliding(
 
 /** 画像の読み込み */
 let playerImg;
-let kumoImg;
+let cloudImg;
 function preload() {
   playerImg = loadImage('animal_musasabi.png');
-  cloudImg = loadImage('kumo.png');
+  cloudImg = loadImage('cloud.png');
 }
 
 /** プレイヤーエンティティ */
